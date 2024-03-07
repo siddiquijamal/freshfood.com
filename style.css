@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(189, 183, 183);
+}
+.navbar img{
+    margin-top: 10px;
+
+    height: 80px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.navbar{
+    
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+    margin-left:20px ;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(234, 230, 225);
+
+}
+.name{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+.name h2 {
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: 100;
+    font-size: 70px;
+    color: #37475a;
+
+}
+.search {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search i{
+    font-size: 30px;
+    color: #a7aaae;
+    cursor: pointer;
+    
+}
+.search input{
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 15px;
+    background-color: #a7aaae;
+    transition: 1s;
+    font-size: 20px;
+}
+
+.main-view{
+    margin-left: 50px;
+     display: flex;
+     align-items: center;
+     gap: 30px
+   
+}
+.main-view a:hover{
+    transform: scale(1.05);
+    z-index:1;
+    font-size:22px ;
+
+}
+ .main-view a{
+    color: rgb(74, 69, 69);
+    font-size: 20px;
+    transition: 0.5s
+ }
+ .btnn{
+    color: #3a3d41;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #a7aaae;
+    border-radius: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+ }
+ .btnn:hover{
+    transform: scale(1.05);
+    z-index:1;
+ }
+.signup a{
+    color: black;
+}
+.signup{
+    padding: 30px;
+}
+.btn1{
+    margin-left: 1000px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    background-color: #d1d4d6;
+    border-radius: 15px;
+    
+}
+.navbar img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.bar{
+    
+    padding: 20px;
+    font-size: 30px;
+}
+.hero-section{
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    
+   
+
+    margin-left:20px ;
+    margin-top: 1px;
+    height:500px ;
+   
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-color: rgb(234, 230, 225);
+
+   
+}
+ .hero-section  img{
+    margin-left: 10px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+hero-section  img:hover{
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+ 
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.tag {
+    margin-top: 10px;
+      background-color: rgb(154, 227, 154);
+      font-size: 20px;
+      padding: 10px;
+
+     box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+      border-radius: 15px;
+      display: flex;
+      align-self:flex-start ;
+}
+.product h1{
+    font-size: 100px;
+}
+.tag1{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(158, 137, 97);
+    border: none;
+    display: flex;
+    align-self: flex-start;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    border-radius: 10px;
+    
+
+}
+.tag1:hover{
+    transition: 1s ease-in;
+    background-color: rgb(192, 192, 178);
+    color: rgb(190, 172, 160);
+    border: 1px solid grey;
+}
+
+.product p{
+    font-size: 20px;
+}
+.feature{
+    height: 120px;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(234, 230, 225);
+    margin-left:20px ;
+}
+    
+.dis:hover{
+   
+    color: rgb(35, 29, 30);
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    
+
+    
+}
+
+.health:hover{
+    color: rgb(42, 29, 31);
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+
+}
+.delivery:hover{
+    color: rgb(30, 23, 25);
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+}
+  .delivery a{
+    text-decoration:none ;
+    color: black;
+}
+.dis a{
+    text-decoration: none;
+    color: black;
+}
+.health a{
+    text-decoration: none;
+    color: black;
+}
+.img-head{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.menu{
+    margin-top: 15px;
+    padding:10px;
+    background-color: rgb(90, 161, 90);
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+}
+.menu:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+.explore{
+    font-weight: 900;
+    font-size: 30px;
+}
+.img-container img{
+    height: 400px;
+    width: 500px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.img-container img{
+    border-radius: 15px;
+}
+
+.img1to3{
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 100px;
+    display: flex;
+    gap:20px ;
+    
+}
+
+.img4to6{
+    margin-left: 100px;
+    margin-right: 50px;
+    display: flex;
+    margin-top:20px;
+    gap: 20px;
+}
+.img7to8{
+    display: flex;
+    margin-top:20px;
+    gap: 20px;
+}
+.img1{
+    
+     border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+          
+}
+.img1:hover{
+    transform: scale(1.05);
+    z-index:1;
+}
+.img2{
+    
+    cursor: pointer;
+    transition: 0.5s;
+}
+.img2:hover{
+    transform: scale(1.05);
+    z-index:1;
+}
+.img3{
+    
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+.img3:hover{
+    transform: scale(1.05);
+    z-index:1;
+}
+.img4{
+    
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+.img4:hover{
+    transform: scale(1.05);
+    z-index:1;
+}
+.img5{
+    
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.img5:hover{
+    transform: scale(1.05);
+    z-index:1;
+}
+.img6{
+    
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.img6:hover{
+    transform: scale(1.05);
+    z-index:1;
+}
+.img7{
+    
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+.img7:hover{
+    transform: scale(1.05);
+    z-index:1;
+}
+.img8{
+    
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+.img8:hover{
+    transform: scale(1.05);
+    z-index:1;
+}
+.hr1{
+   background-color: #375884;
+    font-weight: 400;
+}
+
+.video{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.vid{
+    border-radius: 17px;
+    backdrop-filter: blur;
+}
+.dishes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.nonv{
+    
+    color: #181108;
+    margin-left: 20px;
+    text-decoration:dotted;
+    text-shadow: #a7aaae;
+    text-decoration: double;
+    font-weight: 500px;
+    
+}
+.n1{
+    margin-top: 8px;
+    margin-left:35px ;
+    color: rgb(103, 108, 94);
+}
+
+.footer{
+    margin-left: 20px;
+    height: 400px;
+    background-color:#37475a;
+    margin-top: 150px;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.main-link {
+     cursor: pointer;
+}
+.link{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+     color: rgb(236, 222, 222);
+}
+.sup{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.newslatter{
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+    list-style: none;
+}
+.social-media{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+
+}
+.input{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    margin-left: 20px;
+    background-color: #37475a;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.copy{
+    font-size: larger;
+    margin-left: 20px;
+}
+.social-media i {
+    font-size:20px ;
+    color: white;
+    transition: 1s;
+}
+.social-media i:hover{
+    transform: scale(1.5);
+    z-index:1;
+    font-size: 22px;
+}
+.btn{
+    margin-left: 20px;
+    background-color: #37475a;
+    color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+@media(max-width:786px){
+.img{
+    display: flex;
+    align-items: center;
+}
+}
